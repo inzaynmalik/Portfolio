@@ -6,6 +6,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import webscraper  from "../../Assets/Projects/webscraping.png";
 import Autocad  from "../../Assets/Projects/Autocad.png";
 import weather  from "../../Assets/Projects/weather.png";
+import healthcare  from "../../Assets/Projects/healthcare.png";
 
 function Projects() {
   return (
@@ -24,18 +25,24 @@ function Projects() {
               imgPath={webscraper}
               isBlog={false}
               title="Web Scraper"
-              description="Robust web scraping tool enabling users to effortlessly extract targeted data from websites by providing URL and keyword inputs, offering a seamless and customizable data retrieval experience.
-              
-              "
+              description="Robust web scraping tool enabling users to effortlessly extract targeted data from websites by providing URL and keyword inputs, offering a seamless and customizable data retrieval experience."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={healthcare}
+              isBlog={false}
+              title="AI Health Care Application"
+              description=" Developed a disease detection system capable of identifying five diseases: heart disease, pneumonia, malaria, liver disease, and diabetes."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={Autocad}
               isBlog={false}
-              title="Co-Pilot ChatBot for CAD Software"
-              description="Users can specify their design requirements within the chat, such as draw a circle of radius 5 The chatbot seamlessly translates these requests into actionable commands within the CAD software, resulting in rapid and precise design modifications."
+              title="Co-Pilot for Autodesk Software’s"
+              description="As an integral part of the team, I played a role in the groundbreaking integration of ChatGPT with Autodesk’s suite of tools, such as AutoCAD, Fusion 360, Inventor, Revit, and iTwin, transforming tool interaction andaccessibility through cutting-edge AI technology."
             />
           </Col>
           <Col md={4} className="project-card">
@@ -43,8 +50,7 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 82.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="Trained a CNN classifier with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 82.1%. Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
             />
           </Col>
           <Col md={4} className="project-card">
@@ -52,8 +58,7 @@ function Projects() {
               imgPath={weather}
               isBlog={false}
               title="Weather App"
-              description=" Developed a weather application that enhances user experience by caching weather data in Redux-store and session
-              storage, reducing network dependency, and enabling real-time weather updates by city name or automatic location
+              description=" Developed a weather application that enhances user experience by caching weather data in Redux-store and session storage, reducing network dependency, and enabling real-time weather updates by city name or automatic location."
               detection"
             />
           </Col>
