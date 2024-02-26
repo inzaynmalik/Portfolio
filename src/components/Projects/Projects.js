@@ -6,7 +6,6 @@ import emotion from "../../Assets/Projects/emotion.png";
 import webscraper  from "../../Assets/Projects/webscraping.png";
 import Autocad  from "../../Assets/Projects/Autocad.png";
 import weather  from "../../Assets/Projects/weather.png";
-import healthcare  from "../../Assets/Projects/healthcare.png";
 
 function Projects() {
   return (
@@ -55,14 +54,7 @@ function Projects() {
               detection"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={healthcare}
-              isBlog={false}
-              title="AI Health Care Application"
-              description=" Developed a disease detection system capable of identifying five diseases: heart disease, pneumonia, malaria, liver disease, and diabetes."
-            />
-          </Col>
+      
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
