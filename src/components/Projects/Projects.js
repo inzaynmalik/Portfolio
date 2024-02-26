@@ -5,8 +5,8 @@ import Particle from "../Particle";
 import emotion from "../../Assets/Projects/emotion.png";
 import webscraper  from "../../Assets/Projects/webscraping.png";
 import Autocad  from "../../Assets/Projects/Autocad.png";
+import healthcare  from "../../Assets/Projects/healthcare.png";
 import weather  from "../../Assets/Projects/weather.png";
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -47,11 +47,10 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={weather}
+              imgPath={healthcare}
               isBlog={false}
-              title="Weather App"
-              description=" Developed a weather application that enhances user experience by caching weather data in Redux-store and session storage, reducing network dependency, and enabling real-time weather updates by city name or automatic location."
-              detection"
+              title="AI Health Care Application"
+              description=" Developed a disease detection system capable of identifying five diseases: heart disease, pneumonia, malaria, liver disease, and diabetes detection"
             />
           </Col>
       
