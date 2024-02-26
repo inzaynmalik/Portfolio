@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import emotion from "../../Assets/Projects/emotion.png";
 import webscraper  from "../../Assets/Projects/webscraping.png";
 import Autocad  from "../../Assets/Projects/Autocad.png";
+import weather  from "../../Assets/Projects/weather.png";
 
 function Projects() {
   return (
@@ -44,6 +45,16 @@ function Projects() {
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 82.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weather}
+              isBlog={false}
+              title="Weather App"
+              description=" Developed a weather application that enhances user experience by caching weather data in Redux-store and session
+              storage, reducing network dependency, and enabling real-time weather updates by city name or automatic location
+              detection"
             />
           </Col>
 
