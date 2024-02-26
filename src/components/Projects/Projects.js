@@ -57,7 +57,7 @@ function Projects() {
             <ProjectCard
               imgPath={weather}
               isBlog={false}
-              title="AI Health Care Application"
+              title="Weather App"
               description="Developed a weather application that enhances user experience by caching weather data in Redux-store and session storage, reducing network dependency, and enabling real-time weather updates by city name or automatic location detection."
             />
           </Col>
