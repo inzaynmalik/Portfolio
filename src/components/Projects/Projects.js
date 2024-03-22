@@ -3,10 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import emotion from "../../Assets/Projects/emotion.png";
-import webscraper  from "../../Assets/Projects/webscraping.png";
-import Autocad  from "../../Assets/Projects/Autocad.png";
-import healthcare  from "../../Assets/Projects/healthcare.png";
-import weather  from "../../Assets/Projects/weather.png";
+import webscraper from "../../Assets/Projects/webscraping.png";
+import Autocad from "../../Assets/Projects/Autocad.png";
+import healthcare from "../../Assets/Projects/healthcare.png";
+import weather from "../../Assets/Projects/weather.png";
+import zaika from "../../Assets/Projects/zaika.png";
+import json from "../../Assets/Projects/json.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -28,7 +30,6 @@ function Projects() {
             />
           </Col>
 
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Autocad}
@@ -61,8 +62,22 @@ function Projects() {
               description="Developed a weather application that enhances user experience by caching weather data in Redux-store and session storage, reducing network dependency, and enabling real-time weather updates by city name or automatic location detection."
             />
           </Col>
-
-      
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={zaika}
+              isBlog={false}
+              title="Food-Delivery-App-Zaika"
+              description="Zaika is a dynamic food delivery website created with the Swiggy API. It provides users with a seamless and interactive experience for discovering and ordering food from various restaurants."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={json}
+              isBlog={false}
+              title="JSON Path Navigator"
+              description="A dynamic web application designed to simplify navigation and querying within complex JSON objects.The JSON Path Navigator is developed to offer an intuitive interface for users to easily query and navigate through JSON data structures. It utilizes the flexibility of HTML, CSS, and JavaScript, with React for efficient UI rendering, and MUI for modern, responsive designs."
+            />
+          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
@@ -90,8 +105,6 @@ function Projects() {
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
             />
           </Col> */}
-
-     
         </Row>
       </Container>
     </Container>
