@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillInstagram, AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -19,7 +17,6 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-           
             {/* <li className="social-icons">
               <a
                 href="https://twitter.com/"
@@ -34,7 +31,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/arsalan-sadique-patel/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -44,10 +41,20 @@ function Footer() {
               <a
                 href="https://www.instagram.com/_arsalano/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://github.com/arsalanpatel71"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub />
               </a>
             </li>
           </ul>
